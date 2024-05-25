@@ -51,7 +51,7 @@ function login(event) {
         }
         setTimeout(() => {
             window.location.href = "sucesso.html";
-        }, 2000);
+        }, );
     } else {
         const errorElement = document.getElementById("erroLogin");
         errorElement.textContent = "Email ou senha inválidos";
