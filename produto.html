@@ -8,6 +8,7 @@
     <script defer src="./js/script.js"></script>
 </head>
 <body>
+    <main>
     <header class="header">
         <div class="header">
             <div class="container">
@@ -51,3 +52,42 @@
             </div>
         </div>
     </section>
+
+    <div id="modalFunc" class="modal">
+        <div class="conteudo-modal">
+            <span class="fechar" onclick="fecharModal('modalFunc')">&times;</span>
+            <h2>Funcionalidades</h2>
+            <p>Diagnósticos Completos: Lê e traduz códigos de falhas usando a tecnologia OBD-II, oferecendo descrições claras e soluções possíveis diretamente no seu smartphone ou dentro do nosso site. <br><br>
+                Monitoramento em Tempo Real: Visualize parâmetros críticos do veículo, como temperatura do motor e RPM, para uma manutenção proativa e melhor desempenho. <br><br>
+                Histórico de Manutenção: Guarde registros de manutenções e configure lembretes baseados em quilometragem ou tempo.
+                Assistência e Comunidade: Consulte mecânicos online e interaja com outros usuários para compartilhar dicas e resolver problemas. <br><br>
+                Localização de Oficinas: Encontre a oficina mais próxima rapidamente em casos de emergência através de um mapa integrado. <br><br>
+                Cadastro de Oficina: Registre sua oficina e gerencie filas e agendamentos online, facilitando o acesso para os clientes.</p>
+        </div>
+    </div>
+    <div id="modalBenef" class="modal">
+        <div class="conteudo-modal">
+            <span class="fechar" onclick="fecharModal('modalBenef')">&times;</span>
+            <h2>Benefícios</h2>
+            <p>Economia: Diminui visitas a oficinas ao permitir diagnósticos caseiros, economizando tempo e dinheiro. <br><br>
+                Controle do Usuário: Dá ao dono do veículo completo conhecimento e controle sobre a condição e operação do carro. <br><br>
+                Prevenção: Detecta problemas cedo, reduzindo a chance de reparos caros e aumentando a vida útil do veículo.</p>
+        </div>
+    </div>
+    <div id="modalUso" class="modal">
+        <div class="conteudo-modal">
+            <span class="fechar" onclick="fecharModal('modalUso')">&times;</span>
+            <h2>Como Usar</h2>
+            <p>Conexão: Instalação do dispositivo na porta OBD-II do seu carro, realize a conexão via Bluetooth ao seu smartphone <br><br>
+                Monitoramento: Realize o login no app ou no site para realizar diagnósticos completos e acompanhar o estado do seu veículo em tempo real.<br><br>
+                Decisão: Receba análises claras e orientações práticas sobre como proceder com a manutenção do seu carro.</p>
+        </div>
+    </div>
+    <div id="useModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('useModal')">&times;</span>
+            <h2>Como Usar</h2>
+            <p>Guia prático de como utilizar nossos serviços ou produtos.</p>
+        </div>
+    </div>   
+</main>
