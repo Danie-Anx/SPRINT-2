@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+.container {
+  width: 90%; /* Aumentar a largura para 90% em telas menores */
+  max-width: 1200px; /* Definir uma largura máxima para evitar que o conteúdo fique muito largo */
+  margin: auto;
+  display: flex;
+  align-items: center; /* Centralizar o conteúdo */
+}
+
+.header {
+  border-bottom: 3px solid #32b9cd;
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  color: #40a1e0;
+}
+
+.agora {
+  font-weight: 800;
+}
+
+.navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #3379a9;
+}
+
+.navbar li {
+  margin: 0 35px; /* Espaçamento entre os itens do menu */
+}
+
+.titulo {
+height: 50px;
+width: auto;
+padding: 7px;
+}
+
+
+/* BANNER */
+
+.banner {
+height: 400px;
+  color: white;
+  background-image: url("../img/banner-oficial.png");
+  background-size: cover;
+}
+
+.banner .container {
+  height: 400px;
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tamanho-conteudo { 
+  height: fit-content !important;
+}
+
+.banner p {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  font-size: 36px;
+}
+
+.banner .container span {
+  font-weight: 800;
+}
+
+/* missao visao valores */
+
+.social {
+  background-color: #e5e5e5;
+  display: flex;
+}
+
+.social .container{
+  justify-content: center;
+}
+
+.box img {
+  width: 170px;
+}
+
+.social .container .boxes {
+  display: flex;
+}
+
+.social p {
+  text-align: center;
+  font-weight: 400;
+}
+
+.box {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer-container {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que os elementos dentro do footer sejam envoltos em várias linhas */
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1 1 300px; /* Definir largura mínima e máxima para cada seção do footer */
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+  color: white;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+footer .footer-section a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
